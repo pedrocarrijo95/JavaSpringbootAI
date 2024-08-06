@@ -1,0 +1,3 @@
+com\oracle\cloud\spring\sample\genai\springcloudocigenaisample\ChatModelController.class
+com\oracle\cloud\spring\sample\genai\springcloudocigenaisample\EmbeddingModelController.class
+com\oracle\cloud\spring\sample\genai\springcloudocigenaisample\SpringCloudOciGenAISampleApplication.class

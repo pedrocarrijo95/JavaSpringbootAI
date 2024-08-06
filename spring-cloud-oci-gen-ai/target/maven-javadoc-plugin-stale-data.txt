@@ -1,0 +1,127 @@
+@options
+@packages
+@argfile
+-classpath
+'C:/Users/pedro/.m2/repository/com/oracle/cloud/spring/spring-cloud-oci-starter/1.2.0/spring-cloud-oci-starter-1.2.0.jar;C:/Users/pedro/.m2/repository/com/oracle/cloud/spring/spring-cloud-oci-autoconfigure/1.2.0/spring-cloud-oci-autoconfigure-1.2.0.jar;C:/Users/pedro/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.2.7/spring-boot-autoconfigure-3.2.7.jar;C:/Users/pedro/.m2/repository/com/oracle/cloud/spring/spring-cloud-oci-adb/1.2.0/spring-cloud-oci-adb-1.2.0.jar;C:/Users/pedro/.m2/repository/com/oracle/oci/sdk/oci-java-sdk-database/3.44.3/oci-java-sdk-database-3.44.3.jar;C:/Users/pedro/.m2/repository/com/oracle/oci/sdk/oci-java-sdk-workrequests/3.44.3/oci-java-sdk-workrequests-3.44.3.jar;C:/Users/pedro/.m2/repository/com/oracle/oci/sdk/oci-java-sdk-common-httpclient-jersey3/3.44.3/oci-java-sdk-common-httpclient-jersey3-3.44.3.jar;C:/Users/pedro/.m2/repository/com/oracle/oci/sdk/oci-java-sdk-common-httpclient/3.44.3/oci-java-sdk-common-httpclient-3.44.3.jar;C:/Users/pedro/.m2/repository/jakarta/ws/rs/jakarta.ws.rs-api/3.1.0/jakarta.ws.rs-api-3.1.0.jar;C:/Users/pedro/.m2/repository/org/glassfish/jersey/core/jersey-common/3.1.7/jersey-common-3.1.7.jar;C:/Users/pedro/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar;C:/Users/pedro/.m2/repository/org/glassfish/hk2/osgi-resource-locator/1.0.3/osgi-resource-locator-1.0.3.jar;C:/Users/pedro/.m2/repository/org/glassfish/jersey/core/jersey-client/3.1.7/jersey-client-3.1.7.jar;C:/Users/pedro/.m2/repository/org/glassfish/jersey/media/jersey-media-json-jackson/3.1.7/jersey-media-json-jackson-3.1.7.jar;C:/Users/pedro/.m2/repository/org/glassfish/jersey/ext/jersey-entity-filtering/3.1.7/jersey-entity-filtering-3.1.7.jar;C:/Users/pedro/.m2/repository/com/fasterxml/jackson/module/jackson-module-jakarta-xmlbind-annotations/2.15.4/jackson-module-jakarta-xmlbind-annotations-2.15.4.jar;C:/Users/pedro/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.2/jakarta.xml.bind-api-4.0.2.jar;C:/Users/pedro/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.3/jakarta.activation-api-2.1.3.jar;C:/Users/pedro/.m2/repository/org/glassfish/jersey/inject/jersey-hk2/3.1.7/jersey-hk2-3.1.7.jar;C:/Users/pedro/.m2/repository/org/glassfish/hk2/hk2-locator/3.0.6/hk2-locator-3.0.6.jar;C:/Users/pedro/.m2/repository/org/glassfish/hk2/external/aopalliance-repackaged/3.0.6/aopalliance-repackaged-3.0.6.jar;C:/Users/pedro/.m2/repository/org/glassfish/hk2/hk2-api/3.0.6/hk2-api-3.0.6.jar;C:/Users/pedro/.m2/repository/org/glassfish/hk2/hk2-utils/3.0.6/hk2-utils-3.0.6.jar;C:/Users/pedro/.m2/repository/org/javassist/javassist/3.30.2-GA/javassist-3.30.2-GA.jar;C:/Users/pedro/.m2/repository/org/glassfish/jersey/connectors/jersey-apache-connector/3.1.7/jersey-apache-connector-3.1.7.jar;C:/Users/pedro/.m2/repository/commons-codec/commons-codec/1.16.1/commons-codec-1.16.1.jar;C:/Users/pedro/.m2/repository/commons-logging/commons-logging/1.3.1/commons-logging-1.3.1.jar;C:/Users/pedro/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar;C:/Users/pedro/.m2/repository/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar;C:/Users/pedro/.m2/repository/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar;C:/Users/pedro/.m2/repository/org/springframework/cloud/spring-cloud-context/4.1.3/spring-cloud-context-4.1.3.jar;C:/Users/pedro/.m2/repository/org/springframework/security/spring-security-crypto/6.2.5/spring-security-crypto-6.2.5.jar;C:/Users/pedro/.m2/repository/com/oracle/cloud/spring/spring-cloud-oci-gen-ai/1.2.0/spring-cloud-oci-gen-ai-1.2.0.jar;C:/Users/pedro/.m2/repository/com/oracle/cloud/spring/spring-cloud-oci-core/1.2.0/spring-cloud-oci-core-1.2.0.jar;C:/Users/pedro/.m2/repository/com/oracle/oci/sdk/oci-java-sdk-common/3.44.3/oci-java-sdk-common-3.44.3.jar;C:/Users/pedro/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.4/jackson-annotations-2.15.4.jar;C:/Users/pedro/.m2/repository/org/bouncycastle/bcpkix-jdk15to18/1.78.1/bcpkix-jdk15to18-1.78.1.jar;C:/Users/pedro/.m2/repository/org/bouncycastle/bcutil-jdk15to18/1.78.1/bcutil-jdk15to18-1.78.1.jar;C:/Users/pedro/.m2/repository/org/bouncycastle/bcprov-jdk15to18/1.78.1/bcprov-jdk15to18-1.78.1.jar;C:/Users/pedro/.m2/repository/com/oracle/oci/sdk/oci-java-sdk-circuitbreaker/3.44.3/oci-java-sdk-circuitbreaker-3.44.3.jar;C:/Users/pedro/.m2/repository/io/github/resilience4j/resilience4j-circuitbreaker/1.7.1/resilience4j-circuitbreaker-1.7.1.jar;C:/Users/pedro/.m2/repository/io/vavr/vavr/0.10.2/vavr-0.10.2.jar;C:/Users/pedro/.m2/repository/io/vavr/vavr-match/0.10.2/vavr-match-0.10.2.jar;C:/Users/pedro/.m2/repository/io/github/resilience4j/resilience4j-core/1.7.1/resilience4j-core-1.7.1.jar;C:/Users/pedro/.m2/repository/org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0.jar;C:/Users/pedro/.m2/repository/com/oracle/oci/sdk/oci-java-sdk-identity/3.44.3/oci-java-sdk-identity-3.44.3.jar;C:/Users/pedro/.m2/repository/com/oracle/oci/sdk/oci-java-sdk-addons-oke-workload-identity/3.44.3/oci-java-sdk-addons-oke-workload-identity-3.44.3.jar;C:/Users/pedro/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.4/jackson-core-2.15.4.jar;C:/Users/pedro/.m2/repository/com/oracle/oci/sdk/oci-java-sdk-generativeaiinference/3.44.3/oci-java-sdk-generativeaiinference-3.44.3.jar;C:/Users/pedro/.m2/repository/org/springframework/boot/spring-boot-starter-web/3.3.2/spring-boot-starter-web-3.3.2.jar;C:/Users/pedro/.m2/repository/org/springframework/boot/spring-boot-starter/3.2.7/spring-boot-starter-3.2.7.jar;C:/Users/pedro/.m2/repository/org/springframework/boot/spring-boot/3.2.7/spring-boot-3.2.7.jar;C:/Users/pedro/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.2.7/spring-boot-starter-logging-3.2.7.jar;C:/Users/pedro/.m2/repository/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.jar;C:/Users/pedro/.m2/repository/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.jar;C:/Users/pedro/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.21.1/log4j-to-slf4j-2.21.1.jar;C:/Users/pedro/.m2/repository/org/apache/logging/log4j/log4j-api/2.21.1/log4j-api-2.21.1.jar;C:/Users/pedro/.m2/repository/org/slf4j/jul-to-slf4j/2.0.13/jul-to-slf4j-2.0.13.jar;C:/Users/pedro/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar;C:/Users/pedro/.m2/repository/org/springframework/spring-core/6.1.10/spring-core-6.1.10.jar;C:/Users/pedro/.m2/repository/org/springframework/spring-jcl/6.1.10/spring-jcl-6.1.10.jar;C:/Users/pedro/.m2/repository/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar;C:/Users/pedro/.m2/repository/org/springframework/boot/spring-boot-starter-json/3.2.7/spring-boot-starter-json-3.2.7.jar;C:/Users/pedro/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.4/jackson-databind-2.15.4.jar;C:/Users/pedro/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.15.4/jackson-datatype-jdk8-2.15.4.jar;C:/Users/pedro/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.15.4/jackson-datatype-jsr310-2.15.4.jar;C:/Users/pedro/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.15.4/jackson-module-parameter-names-2.15.4.jar;C:/Users/pedro/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/3.2.7/spring-boot-starter-tomcat-3.2.7.jar;C:/Users/pedro/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.1.25/tomcat-embed-core-10.1.25.jar;C:/Users/pedro/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/10.1.25/tomcat-embed-el-10.1.25.jar;C:/Users/pedro/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.25/tomcat-embed-websocket-10.1.25.jar;C:/Users/pedro/.m2/repository/org/springframework/spring-web/6.1.10/spring-web-6.1.10.jar;C:/Users/pedro/.m2/repository/org/springframework/spring-beans/6.1.10/spring-beans-6.1.10.jar;C:/Users/pedro/.m2/repository/io/micrometer/micrometer-observation/1.12.7/micrometer-observation-1.12.7.jar;C:/Users/pedro/.m2/repository/io/micrometer/micrometer-commons/1.12.7/micrometer-commons-1.12.7.jar;C:/Users/pedro/.m2/repository/org/springframework/spring-webmvc/6.1.10/spring-webmvc-6.1.10.jar;C:/Users/pedro/.m2/repository/org/springframework/spring-aop/6.1.10/spring-aop-6.1.10.jar;C:/Users/pedro/.m2/repository/org/springframework/spring-context/6.1.10/spring-context-6.1.10.jar;C:/Users/pedro/.m2/repository/org/springframework/spring-expression/6.1.10/spring-expression-6.1.10.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'8'
+-sourcepath
+'C:/Users/pedro/Downloads/JavaGenAi/spring-cloud-oci-gen-ai-sample/src/main/java;C:/Users/pedro/Downloads/JavaGenAi/spring-cloud-oci-gen-ai-sample/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2024 <a href="https://www.spring.io">Pivotal Software, Inc.</a>. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/pedro/Downloads/JavaGenAi/spring-cloud-oci-gen-ai-sample/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'Spring Cloud OCI Gen AI Starter Module 1.2.0 API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' 'C:/Users/pedro/Downloads/JavaGenAi/spring-cloud-oci-gen-ai-sample/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'Spring Cloud OCI Gen AI Starter Module 1.2.0 API'
+com.oracle.cloud.spring.sample.genai.springcloudocigenaisample
+'C:/Users/pedro/Downloads/JavaGenAi/spring-cloud-oci-gen-ai-sample/src/main/java/com/oracle/cloud/spring/sample/genai/springcloudocigenaisample/ChatModelController.java'
+'C:/Users/pedro/Downloads/JavaGenAi/spring-cloud-oci-gen-ai-sample/src/main/java/com/oracle/cloud/spring/sample/genai/springcloudocigenaisample/EmbeddingModelController.java'
+'C:/Users/pedro/Downloads/JavaGenAi/spring-cloud-oci-gen-ai-sample/src/main/java/com/oracle/cloud/spring/sample/genai/springcloudocigenaisample/SpringCloudOciGenAISampleApplication.java'
+C:\Users\pedro\.m2\repository\com\oracle\cloud\spring\spring-cloud-oci-starter\1.2.0\spring-cloud-oci-starter-1.2.0.jar = 1722902624214
+C:\Users\pedro\.m2\repository\com\oracle\cloud\spring\spring-cloud-oci-autoconfigure\1.2.0\spring-cloud-oci-autoconfigure-1.2.0.jar = 1722902624222
+C:\Users\pedro\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.2.7\spring-boot-autoconfigure-3.2.7.jar = 1722892869203
+C:\Users\pedro\.m2\repository\com\oracle\cloud\spring\spring-cloud-oci-adb\1.2.0\spring-cloud-oci-adb-1.2.0.jar = 1722902624160
+C:\Users\pedro\.m2\repository\com\oracle\oci\sdk\oci-java-sdk-database\3.44.3\oci-java-sdk-database-3.44.3.jar = 1722892896205
+C:\Users\pedro\.m2\repository\com\oracle\oci\sdk\oci-java-sdk-workrequests\3.44.3\oci-java-sdk-workrequests-3.44.3.jar = 1722892896249
+C:\Users\pedro\.m2\repository\com\oracle\oci\sdk\oci-java-sdk-common-httpclient-jersey3\3.44.3\oci-java-sdk-common-httpclient-jersey3-3.44.3.jar = 1722892882579
+C:\Users\pedro\.m2\repository\com\oracle\oci\sdk\oci-java-sdk-common-httpclient\3.44.3\oci-java-sdk-common-httpclient-3.44.3.jar = 1722892882447
+C:\Users\pedro\.m2\repository\jakarta\ws\rs\jakarta.ws.rs-api\3.1.0\jakarta.ws.rs-api-3.1.0.jar = 1722892882653
+C:\Users\pedro\.m2\repository\org\glassfish\jersey\core\jersey-common\3.1.7\jersey-common-3.1.7.jar = 1722892883034
+C:\Users\pedro\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar = 1722892882705
+C:\Users\pedro\.m2\repository\org\glassfish\hk2\osgi-resource-locator\1.0.3\osgi-resource-locator-1.0.3.jar = 1722892882770
+C:\Users\pedro\.m2\repository\org\glassfish\jersey\core\jersey-client\3.1.7\jersey-client-3.1.7.jar = 1722892882914
+C:\Users\pedro\.m2\repository\org\glassfish\jersey\media\jersey-media-json-jackson\3.1.7\jersey-media-json-jackson-3.1.7.jar = 1722892882930
+C:\Users\pedro\.m2\repository\org\glassfish\jersey\ext\jersey-entity-filtering\3.1.7\jersey-entity-filtering-3.1.7.jar = 1722892883066
+C:\Users\pedro\.m2\repository\com\fasterxml\jackson\module\jackson-module-jakarta-xmlbind-annotations\2.15.4\jackson-module-jakarta-xmlbind-annotations-2.15.4.jar = 1722892883060
+C:\Users\pedro\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.2\jakarta.xml.bind-api-4.0.2.jar = 1722892869215
+C:\Users\pedro\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.3\jakarta.activation-api-2.1.3.jar = 1722892869224
+C:\Users\pedro\.m2\repository\org\glassfish\jersey\inject\jersey-hk2\3.1.7\jersey-hk2-3.1.7.jar = 1722892883134
+C:\Users\pedro\.m2\repository\org\glassfish\hk2\hk2-locator\3.0.6\hk2-locator-3.0.6.jar = 1722892883169
+C:\Users\pedro\.m2\repository\org\glassfish\hk2\external\aopalliance-repackaged\3.0.6\aopalliance-repackaged-3.0.6.jar = 1722892883154
+C:\Users\pedro\.m2\repository\org\glassfish\hk2\hk2-api\3.0.6\hk2-api-3.0.6.jar = 1722892883237
+C:\Users\pedro\.m2\repository\org\glassfish\hk2\hk2-utils\3.0.6\hk2-utils-3.0.6.jar = 1722892883238
+C:\Users\pedro\.m2\repository\org\javassist\javassist\3.30.2-GA\javassist-3.30.2-GA.jar = 1722892883506
+C:\Users\pedro\.m2\repository\org\glassfish\jersey\connectors\jersey-apache-connector\3.1.7\jersey-apache-connector-3.1.7.jar = 1722892883261
+C:\Users\pedro\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar = 1722892883438
+C:\Users\pedro\.m2\repository\commons-logging\commons-logging\1.3.1\commons-logging-1.3.1.jar = 1722892883347
+C:\Users\pedro\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar = 1722892883502
+C:\Users\pedro\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar = 1722892876555
+C:\Users\pedro\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar = 1722892869181
+C:\Users\pedro\.m2\repository\org\springframework\cloud\spring-cloud-context\4.1.3\spring-cloud-context-4.1.3.jar = 1722892929313
+C:\Users\pedro\.m2\repository\org\springframework\security\spring-security-crypto\6.2.5\spring-security-crypto-6.2.5.jar = 1722892929282
+C:\Users\pedro\.m2\repository\com\oracle\cloud\spring\spring-cloud-oci-gen-ai\1.2.0\spring-cloud-oci-gen-ai-1.2.0.jar = 1722902624210
+C:\Users\pedro\.m2\repository\com\oracle\cloud\spring\spring-cloud-oci-core\1.2.0\spring-cloud-oci-core-1.2.0.jar = 1722902624211
+C:\Users\pedro\.m2\repository\com\oracle\oci\sdk\oci-java-sdk-common\3.44.3\oci-java-sdk-common-3.44.3.jar = 1722892882043
+C:\Users\pedro\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.4\jackson-annotations-2.15.4.jar = 1722892882074
+C:\Users\pedro\.m2\repository\org\bouncycastle\bcpkix-jdk15to18\1.78.1\bcpkix-jdk15to18-1.78.1.jar = 1722892882459
+C:\Users\pedro\.m2\repository\org\bouncycastle\bcutil-jdk15to18\1.78.1\bcutil-jdk15to18-1.78.1.jar = 1722892882317
+C:\Users\pedro\.m2\repository\org\bouncycastle\bcprov-jdk15to18\1.78.1\bcprov-jdk15to18-1.78.1.jar = 1722892883563
+C:\Users\pedro\.m2\repository\com\oracle\oci\sdk\oci-java-sdk-circuitbreaker\3.44.3\oci-java-sdk-circuitbreaker-3.44.3.jar = 1722892882199
+C:\Users\pedro\.m2\repository\io\github\resilience4j\resilience4j-circuitbreaker\1.7.1\resilience4j-circuitbreaker-1.7.1.jar = 1722902624232
+C:\Users\pedro\.m2\repository\io\vavr\vavr\0.10.2\vavr-0.10.2.jar = 1722902624349
+C:\Users\pedro\.m2\repository\io\vavr\vavr-match\0.10.2\vavr-match-0.10.2.jar = 1722902624205
+C:\Users\pedro\.m2\repository\io\github\resilience4j\resilience4j-core\1.7.1\resilience4j-core-1.7.1.jar = 1722902624226
+C:\Users\pedro\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar = 1722902624324
+C:\Users\pedro\.m2\repository\com\oracle\oci\sdk\oci-java-sdk-identity\3.44.3\oci-java-sdk-identity-3.44.3.jar = 1722892883117
+C:\Users\pedro\.m2\repository\com\oracle\oci\sdk\oci-java-sdk-addons-oke-workload-identity\3.44.3\oci-java-sdk-addons-oke-workload-identity-3.44.3.jar = 1722892882535
+C:\Users\pedro\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.4\jackson-core-2.15.4.jar = 1722892883631
+C:\Users\pedro\.m2\repository\com\oracle\oci\sdk\oci-java-sdk-generativeaiinference\3.44.3\oci-java-sdk-generativeaiinference-3.44.3.jar = 1722892907609
+C:\Users\pedro\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.3.2\spring-boot-starter-web-3.3.2.jar = 1722902664863
+C:\Users\pedro\.m2\repository\org\springframework\boot\spring-boot-starter\3.2.7\spring-boot-starter-3.2.7.jar = 1722892868469
+C:\Users\pedro\.m2\repository\org\springframework\boot\spring-boot\3.2.7\spring-boot-3.2.7.jar = 1722892869144
+C:\Users\pedro\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.2.7\spring-boot-starter-logging-3.2.7.jar = 1722892868707
+C:\Users\pedro\.m2\repository\ch\qos\logback\logback-classic\1.4.14\logback-classic-1.4.14.jar = 1722892868911
+C:\Users\pedro\.m2\repository\ch\qos\logback\logback-core\1.4.14\logback-core-1.4.14.jar = 1722892868918
+C:\Users\pedro\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.21.1\log4j-to-slf4j-2.21.1.jar = 1722892868883
+C:\Users\pedro\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar = 1722892868993
+C:\Users\pedro\.m2\repository\org\slf4j\jul-to-slf4j\2.0.13\jul-to-slf4j-2.0.13.jar = 1722892868958
+C:\Users\pedro\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar = 1722892868961
+C:\Users\pedro\.m2\repository\org\springframework\spring-core\6.1.10\spring-core-6.1.10.jar = 1722892870063
+C:\Users\pedro\.m2\repository\org\springframework\spring-jcl\6.1.10\spring-jcl-6.1.10.jar = 1722892869694
+C:\Users\pedro\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar = 1722892869173
+C:\Users\pedro\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.2.7\spring-boot-starter-json-3.2.7.jar = 1722892936012
+C:\Users\pedro\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.4\jackson-databind-2.15.4.jar = 1722892882600
+C:\Users\pedro\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.15.4\jackson-datatype-jdk8-2.15.4.jar = 1722892936011
+C:\Users\pedro\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.15.4\jackson-datatype-jsr310-2.15.4.jar = 1722892883528
+C:\Users\pedro\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.15.4\jackson-module-parameter-names-2.15.4.jar = 1722892936009
+C:\Users\pedro\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.2.7\spring-boot-starter-tomcat-3.2.7.jar = 1722892936004
+C:\Users\pedro\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.25\tomcat-embed-core-10.1.25.jar = 1722892936908
+C:\Users\pedro\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.25\tomcat-embed-el-10.1.25.jar = 1722892936057
+C:\Users\pedro\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.25\tomcat-embed-websocket-10.1.25.jar = 1722892936161
+C:\Users\pedro\.m2\repository\org\springframework\spring-web\6.1.10\spring-web-6.1.10.jar = 1722892936520
+C:\Users\pedro\.m2\repository\org\springframework\spring-beans\6.1.10\spring-beans-6.1.10.jar = 1722892868625
+C:\Users\pedro\.m2\repository\io\micrometer\micrometer-observation\1.12.7\micrometer-observation-1.12.7.jar = 1722892868655
+C:\Users\pedro\.m2\repository\io\micrometer\micrometer-commons\1.12.7\micrometer-commons-1.12.7.jar = 1722892868670
+C:\Users\pedro\.m2\repository\org\springframework\spring-webmvc\6.1.10\spring-webmvc-6.1.10.jar = 1722892936749
+C:\Users\pedro\.m2\repository\org\springframework\spring-aop\6.1.10\spring-aop-6.1.10.jar = 1722892868605
+C:\Users\pedro\.m2\repository\org\springframework\spring-context\6.1.10\spring-context-6.1.10.jar = 1722892868830
+C:\Users\pedro\.m2\repository\org\springframework\spring-expression\6.1.10\spring-expression-6.1.10.jar = 1722892868709
+C:\Users\pedro\Downloads\JavaGenAi\spring-cloud-oci-gen-ai-sample\src\main\java = 1722902431277
+C:\Users\pedro\Downloads\JavaGenAi\spring-cloud-oci-gen-ai-sample\target\generated-sources\annotations = 1722902988085
+C:\Users\pedro\Downloads\JavaGenAi\spring-cloud-oci-gen-ai-sample\target\apidocs\allclasses-index.html = 1722902991092
+C:\Users\pedro\Downloads\JavaGenAi\spring-cloud-oci-gen-ai-sample\target\apidocs\allpackages-index.html = 1722902991094
+C:\Users\pedro\Downloads\JavaGenAi\spring-cloud-oci-gen-ai-sample\target\apidocs\element-list = 1722902991061
+C:\Users\pedro\Downloads\JavaGenAi\spring-cloud-oci-gen-ai-sample\target\apidocs\help-doc.html = 1722902991113
+C:\Users\pedro\Downloads\JavaGenAi\spring-cloud-oci-gen-ai-sample\target\apidocs\index-all.html = 1722902991103
+C:\Users\pedro\Downloads\JavaGenAi\spring-cloud-oci-gen-ai-sample\target\apidocs\index.html = 1722902991106
+C:\Users\pedro\Downloads\JavaGenAi\spring-cloud-oci-gen-ai-sample\target\apidocs\member-search-index.js = 1722902991096
+C:\Users\pedro\Downloads\JavaGenAi\spring-cloud-oci-gen-ai-sample\target\apidocs\module-search-index.js = 1722902991094
+C:\Users\pedro\Downloads\JavaGenAi\spring-cloud-oci-gen-ai-sample\target\apidocs\overview-tree.html = 1722902991087
+C:\Users\pedro\Downloads\JavaGenAi\spring-cloud-oci-gen-ai-sample\target\apidocs\package-search-index.js = 1722902991095
+C:\Users\pedro\Downloads\JavaGenAi\spring-cloud-oci-gen-ai-sample\target\apidocs\search.html = 1722902991105
+C:\Users\pedro\Downloads\JavaGenAi\spring-cloud-oci-gen-ai-sample\target\apidocs\tag-search-index.js = 1722902991098
+C:\Users\pedro\Downloads\JavaGenAi\spring-cloud-oci-gen-ai-sample\target\apidocs\type-search-index.js = 1722902991096
